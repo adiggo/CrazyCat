@@ -2,6 +2,7 @@
  * Created by iamrick86 on 7/28/14.
  */
 function Circle(){
+
     createjs.Shape.call(this);
     this.setCircleType = function(type){
         this._circleType = type;
